@@ -94268,7 +94268,7 @@ p=1e4}else if(p===2){m.Q=2e4
 p=2e4}else if(p===3){m.Q=3e4
 p=3e4}else if(p===4){m.Q=4e4
 p=4e4}else{m.Q=1/0
-p=1/0}if(p<=4e4)m.y="Raio ajustado para "+A.l((p-1000)/1000)+" KMs"
+p=1/0}if(p<=4e4)m.y="Raio ajustado para "+A.l(p/1000)+" KMs"
 else m.y="Todas as indica\xe7\xf5es de lixo"
 s=2
 return A.M(m.ql(p),$async$$1)
