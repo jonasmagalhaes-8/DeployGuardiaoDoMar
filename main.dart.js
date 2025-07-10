@@ -93696,7 +93696,7 @@ m3(a){return this.as8(a)},
 as8(a){var s=0,r=A.C(t.k8),q,p=this
 var $async$m3=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:s=3
-return A.L(p.a.wd("https://45.61.161.169/guardiaodomar/comunidadepostagens/novapostagem",a,A.kd("application/json",null),t.z),$async$m3)
+return A.L(p.a.wd("https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidadepostagens/novapostagem",a,A.kd("application/json",null),t.z),$async$m3)
 case 3:q=c
 s=1
 break
@@ -93708,7 +93708,7 @@ anr(a){var s=0,r=A.C(t.N),q,p=this,o
 var $async$lK=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:o=J
 s=3
-return A.L(p.a.wd("https://45.61.161.169/guardiaodomar/comunidade/cadastrar",a,A.kd("application/json",null),t.z),$async$lK)
+return A.L(p.a.wd("https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidade/cadastrar",a,A.kd("application/json",null),t.z),$async$lK)
 case 3:q=o.bb(c.a,"mensagem")
 s=1
 break
@@ -93719,7 +93719,7 @@ alu(a){var s=0,r=A.C(t.N),q,p=this,o
 var $async$lD=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:o=J
 s=3
-return A.L(p.a.Cl(0,"https://45.61.161.169/guardiaodomar/comunidade/atualizar",null,a,null,null,A.a99("PUT",A.kd("application/json",null)),null,t.z),$async$lD)
+return A.L(p.a.Cl(0,"https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidade/atualizar",null,a,null,null,A.a99("PUT",A.kd("application/json",null)),null,t.z),$async$lD)
 case 3:q=o.bb(c.a,"mensagem")
 s=1
 break
@@ -93730,7 +93730,7 @@ var $async$Bc=A.D(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:n=J
 m=t.j
 s=3
-return A.L(p.a.CL(0,"https://45.61.161.169/guardiaodomar/comunidade/listartodas/"+A.l($.iz),A.kd("application/json",null),t.z),$async$Bc)
+return A.L(p.a.CL(0,"https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidade/listartodas/"+A.l($.iz),A.kd("application/json",null),t.z),$async$Bc)
 case 3:o=n.iL(m.a(b.a),new A.a8a(),t.w7)
 q=A.ac(o,!0,o.$ti.h("aE.E"))
 s=1
@@ -93742,7 +93742,7 @@ var $async$m0=A.D(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:n=J
 m=t.j
 s=3
-return A.L(p.a.CL(0,"https://45.61.161.169/guardiaodomar/comunidade/listarporusuario/"+A.l($.iz),A.kd("application/json",null),t.z),$async$m0)
+return A.L(p.a.CL(0,"https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidade/listarporusuario/"+A.l($.iz),A.kd("application/json",null),t.z),$async$m0)
 case 3:o=n.iL(m.a(b.a),new A.a89(),t.w7)
 q=A.ac(o,!0,o.$ti.h("aE.E"))
 s=1
@@ -93755,7 +93755,7 @@ var $async$lM=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:o=t.z
 n=A
 s=3
-return A.L(p.a.L6(0,"https://45.61.161.169/guardiaodomar/comunidade/detalhar",A.kd("application/json",null),A.aM(["idComunidade",a,"usuarioId",$.iz],t.N,o),o),$async$lM)
+return A.L(p.a.L6(0,"https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidade/detalhar",A.kd("application/json",null),A.aM(["idComunidade",a,"usuarioId",$.iz],t.N,o),o),$async$lM)
 case 3:q=n.aBB(c.a)
 s=1
 break
@@ -93771,7 +93771,7 @@ A.a8c.prototype={
 or(a){return this.aog(a)},
 aog(a){var s=0,r=A.C(t.H),q=this
 var $async$or=A.D(function(b,c){if(b===1)return A.z(c,r)
-while(true)switch(s){case 0:q.a.wd("https://45.61.161.169/guardiaodomar/comunidadeusuarios/cadastrar",a,A.kd("application/json",null),t.z)
+while(true)switch(s){case 0:q.a.wd("https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidadeusuarios/cadastrar",a,A.kd("application/json",null),t.z)
 return A.A(null,r)}})
 return A.B($async$or,r)},
 D9(a){return this.a_P(a)},
@@ -93780,7 +93780,7 @@ var $async$D9=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:p=A.kd("application/json",null)
 o=t.z
 n=A.aM(["idComunidade",a,"idUsuario",$.iz],t.N,o)
-q.a.aus(0,"https://45.61.161.169/guardiaodomar/comunidadeusuarios/removerusuario",null,null,A.a99("DELETE",p),n,o)
+q.a.aus(0,"https://api.solucoesjonas.webredirect.org/guardiaodomar/comunidadeusuarios/removerusuario",null,null,A.a99("DELETE",p),n,o)
 return A.A(null,r)}})
 return A.B($async$D9,r)}}
 A.O0.prototype={
@@ -93789,7 +93789,7 @@ as5(a){var s=0,r=A.C(t.N),q,p=this,o
 var $async$Br=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:o=J
 s=3
-return A.L(p.a.wd("https://45.61.161.169/guardiaodomar/indicacaolixo/nova",a,A.kd("application/json",null),t.z),$async$Br)
+return A.L(p.a.wd("https://api.solucoesjonas.webredirect.org/guardiaodomar/indicacaolixo/nova",a,A.kd("application/json",null),t.z),$async$Br)
 case 3:q=o.bb(c.a,"mensagem")
 s=1
 break
@@ -93800,7 +93800,7 @@ var $async$Bb=A.D(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:n=J
 m=t.j
 s=3
-return A.L(p.a.CL(0,"https://45.61.161.169/guardiaodomar/indicacaolixo/listartodas",A.kd("application/json",null),t.z),$async$Bb)
+return A.L(p.a.CL(0,"https://api.solucoesjonas.webredirect.org/guardiaodomar/indicacaolixo/listartodas",A.kd("application/json",null),t.z),$async$Bb)
 case 3:o=n.iL(m.a(b.a),new A.aes(),t.vD)
 q=A.ac(o,!0,o.$ti.h("aE.E"))
 s=1
@@ -93864,7 +93864,7 @@ rd(a,b){return this.arC(a,b)},
 arC(a,b){var s=0,r=A.C(t.N),q,p=this,o,n
 var $async$rd=A.D(function(c,d){if(c===1)return A.z(d,r)
 while(true)switch(s){case 0:s=3
-return A.L(p.a.wd("https://45.61.161.169/guardiaodomar/usuario/"+b,a,A.kd("application/json",new A.aov()),t.z),$async$rd)
+return A.L(p.a.wd("https://api.solucoesjonas.webredirect.org/guardiaodomar/usuario/"+b,a,A.kd("application/json",new A.aov()),t.z),$async$rd)
 case 3:o=d
 n=o.c
 n.toString
@@ -94223,7 +94223,7 @@ $0(){this.a.ax=this.b},
 $S:0}
 A.AB.prototype={
 ag(){var s=null,r=J.ht(0,t.xM),q=J.ht(0,t.uj),p=J.ht(0,t.vD)
-return new A.FM(r,new A.OA(new A.jz(s,s,t.wb)),new A.afo(),q,p,A.aPD(A.aBs(A.HV(s,"45.61.161.169","guardiaodomar/socket",s,"wss"),s)),B.j)}}
+return new A.FM(r,new A.OA(new A.jz(s,s,t.wb)),new A.afo(),q,p,A.aPD(A.aBs(A.HV(s,"api.solucoesjonas.webredirect.org","guardiaodomar/socket",s,"wss"),s)),B.j)}}
 A.FM.prototype={
 aK(){var s,r=this
 r.bh()
